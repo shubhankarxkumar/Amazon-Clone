@@ -138,3 +138,39 @@ span {
   font-size: 0.9rem;
   margin-left: 5px;
 }
+
+.hero-sec {
+  background-image: url(/CSS/pics/hero_image.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: #f5f6f6;
+  color: #0f1111;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 25px;
+  /* margin-left: 150px; */
+}
+
+.hero-msg a {
+  color: #007185;
+}
+
+.box {
+  border: 2px solid black;
+  width: 23%;
+  height: 350px;
+  background-color: #e2e6e7;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
