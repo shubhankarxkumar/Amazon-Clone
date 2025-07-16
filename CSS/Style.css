@@ -164,13 +164,49 @@ span {
 }
 
 .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 23%;
   height: 350px;
   background-color: #e2e6e7;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
 }
 
 .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-image {
+  height: 300px;
+  background-size: cover;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  margin-top: 20px;
+}
+.foot-panel1 {
+  height: 45px;
+  background-color: #37475a;
+  color: whitesmoke;
+  align-items: center;
+  display: flex;
+  font-size: 0.7rem;
+  justify-content: center;
+}
+
+.foot-panel2 {
+  background-color: #222f3d;
+  color: #f5f6f6;
+  height: 350px;
   display: flex;
   justify-content: space-evenly;
 }
